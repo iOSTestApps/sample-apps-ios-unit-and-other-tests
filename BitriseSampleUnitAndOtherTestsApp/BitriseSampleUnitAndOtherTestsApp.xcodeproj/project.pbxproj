@@ -200,6 +200,7 @@
 				TargetAttributes = {
 					BA0609D51AA610E100F24A40 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8G9SJKMB6B;
 					};
 					BA0609F11AA610E100F24A40 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -412,9 +413,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
 				INFOPLIST_FILE = BitriseSampleUnitAndOtherTestsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a8a6fcb3-4a64-4ca5-9728-edb07d9473e7";
 			};
 			name = Debug;
 		};
@@ -422,9 +425,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
 				INFOPLIST_FILE = BitriseSampleUnitAndOtherTestsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a8a6fcb3-4a64-4ca5-9728-edb07d9473e7";
 			};
 			name = Release;
 		};
